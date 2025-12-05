@@ -14,11 +14,11 @@
 
 ###REMOÇÕES
 
-#DATA:2025-12-05
+#DATA:2025-11-29
 ##ADIÇÕES
 * **[Guilherme]**:Foi discutido o tema do projeto e as bases de dados que serão usadas para tal, além de começar a separar artigos que já tenham feito análises semelhantes.
 
-#DATA:2025-11-29
+#DATA:2025-12-05
 ##ADIÇÕES
 * **[Jonathan]**: Criação dos arquivos requirements.txt com as dependências e main.ipynb com os imports e configuração dos gráficos.
 
