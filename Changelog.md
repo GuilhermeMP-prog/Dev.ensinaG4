@@ -55,11 +55,11 @@ Essa versão foi apenas para visualização e entendimento inicial do subsetor.
 * **[Guilherme]**: Criei a função get_close_series, que ajuda ao importar alguns dados do yfinance.
 Agora qualquer ativo baixa no formato correto (sempre uma Series), independente se o yfinance entrega DataFrame normal, MultiIndex ou Series.
 
-[Bloco 6 — Análise gráfica da bolha Dotcom (Cisco)]
+[Bloco 6 — Análise gráfica comparativa da bolha Dotcom (Cisco)]
 
 * **[Guilherme]**: Baixei e padronizei CSCO e S&P500; Identifiquei o pico da Cisco via idxmax(); Alinhei a data do índice ao pregão anterior com get_indexer("ffill"); Calculei o retorno acumulado da Cisco até o pico e comparei com o S&P; Plotei o retorno acumulado com linha marcada no pico. Primeira análise formal finalizada.
 
-[Bloco 7 — Análise completa da “bolha da IA” (NVIDIA)]
+[Bloco 7 — Análise gráfica comparativa da “bolha da IA” (NVIDIA)]
 
 * **[Guilherme]**:
 Baixei algumas empresas de IA usando a função criada; Alinhei datas de cada ativo com o S&P500; Calculei retornos acumulados para cada ação; Montei subplots comparativos (empresa vs benchmark); Produzi tabela resumo com retornos e datas iniciais/finais de cada série.
