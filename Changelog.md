@@ -25,6 +25,7 @@
 
 
 #DATA:2025-12-10
+
 ##ADIÇÕES
 [Bloco 1 — Coleta inicial e visualização do S&P500]
 
@@ -56,13 +57,7 @@ Agora qualquer ativo baixa no formato correto (sempre uma Series), independente 
 
 [Bloco 6 — Análise gráfica da bolha Dotcom (Cisco)]
 
-* **[Guilherme]**:
-* Baixei e padronizei CSCO e S&P500;
-* Identifiquei o pico da Cisco via idxmax();
-* Alinhei a data do índice ao pregão anterior com get_indexer("ffill");
-* Calculei o retorno acumulado da Cisco até o pico e comparei com o S&P;
-* Plotei o retorno acumulado com linha marcada no pico.
-* Primeira análise formal finalizada.
+* **[Guilherme]**: Baixei e padronizei CSCO e S&P500; Identifiquei o pico da Cisco via idxmax(); Alinhei a data do índice ao pregão anterior com get_indexer("ffill"); Calculei o retorno acumulado da Cisco até o pico e comparei com o S&P; Plotei o retorno acumulado com linha marcada no pico. Primeira análise formal finalizada.
 
 [Bloco 7 — Análise completa da “bolha da IA” (NVIDIA)]
 
