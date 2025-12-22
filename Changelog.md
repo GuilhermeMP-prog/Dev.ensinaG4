@@ -74,6 +74,7 @@ Padronizei a forma de plotagem, normalização das séries e tratamento das data
 #DATA:2025-12-21
 
 ##ADIÇÕES
+
 [Bloco 9 — Dados de EPS das 50 maiores empresas do SP500]
 * **[Guilherme]**: Para analisar o lucro por ação das maiores empresas x e o retorno acumulado desde 2021, evidenciando que existe uma disparidade entre aqueles que de fato geram fluxo de caixa.
 
