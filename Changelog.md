@@ -71,3 +71,16 @@ Organizei o notebook, deixei todos os blocos separados por tema (S&P500, setores
 Padronizei a forma de plotagem, normalização das séries e tratamento das datas.
 
 
+#DATA:2025-12-21
+
+##ADIÇÕES
+[Bloco 9 — Dados de EPS das 50 maiores empresas do SP500]
+* **[Guilherme]**: Para analisar o lucro por ação das maiores empresas x e o retorno acumulado desde 2021, evidenciando que existe uma disparidade entre aqueles que de fato geram fluxo de caixa.
+
+[Bloco 10 — Dados de EPS das 50 maiores empresas do SP500, destacando o ecossistema de IA]
+* **[Guilherme]**: Evidenciando empresas como NVDA, PLTR e outras.
+
+[Bloco 11 —  P/E atual do mercado e das empresas.]
+* **[Guilherme]**: responde uma pergunta, será que somente nvda está esticada? será que ela é o foco? e as outras empresas do setor? e outras que não tem correlação tão explicíta?
+[Bloco 12 —  Comparação de P/E da Cisco no auge da bolha, com NVDA e PLTR]
+* **[Guilherme]**: percebe-se que P/E da cisco no auge, era muito maior que a da NVDA hoje, mas menor do que PLTR. Logo, acho que fica evidente que, NVDA tem lucro pra justificar os seus preços, expectativa e tals. Mas deve-se olhar para PLTR e outras emrpresas do ecossistema, como PLTR tem lucro MENOR e tem multiplo MAIOR do que cisco no auge da bolha.
