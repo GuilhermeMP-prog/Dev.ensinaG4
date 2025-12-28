@@ -85,3 +85,19 @@ Padronizei a forma de plotagem, normalização das séries e tratamento das data
 * **[Guilherme]**: responde uma pergunta, será que somente nvda está esticada? será que ela é o foco? e as outras empresas do setor? e outras que não tem correlação tão explicíta?
 [Bloco 12 —  Comparação de P/E da Cisco no auge da bolha, com NVDA e PLTR]
 * **[Guilherme]**: percebe-se que P/E da cisco no auge, era muito maior que a da NVDA hoje, mas menor do que PLTR. Logo, acho que fica evidente que, NVDA tem lucro pra justificar os seus preços, expectativa e tals. Mas deve-se olhar para PLTR e outras emrpresas do ecossistema, como PLTR tem lucro MENOR e tem multiplo MAIOR do que cisco no auge da bolha.
+
+#DATA:2025-12-28 
+
+##ADIÇÕES
+
+[Bloco 13 — Coleta básica de sentimento (PCR)] 
+**[Guilherme]**: Implementei a base do sentimento de mercado. O código acessa o vencimento de opções mais próximo e soma o Open Interest (contratos abertos) de Calls e Puts para calcular o Put/Call Ratio (PCR). É o termômetro inicial para ver o humor do mercado no curtíssimo prazo.
+
+[Bloco 14 — Cruzamento de Momentum com Sentimento]
+**[Guilherme]**: Comecei a correlacionar o preço com as opções. O script calcula o retorno dos últimos 90 dias e joga num gráfico de dispersão contra o PCR. A ideia é caçar divergências: onde o preço subiu muito, mas o pessoal das opções já começou a comprar seguro (Puts).
+
+[Bloco 15 — Visão Macro e Posicionamento Institucional (Full PCR)] 
+**[Guilherme]**: Evoluí o PCR para a visão "Full". Agora o código varre todos os vencimentos disponíveis da empresa, não só o mês que vem. Isso limpa o ruído das rolagens e mostra onde o "dinheiro grosso" das instituições está realmente posicionado. Usei o tamanho da bolha no gráfico para destacar onde a liquidez (Total OI) é maior, tipo na NVIDIA.
+
+[Bloco 16 — O "Termômetro do Medo" (IV Ponderada)] 
+**[Guilherme]**: Versão mais sofisticada do pipeline. Adicionei a Volatilidade Implícita (IV) ponderada pelo Open Interest. Agora a cor das bolhas mostra se a opção está ficando caro ou barato. Com isso, ficou nítido que PLTR e AVGO estão em zona de alerta (muito esticadas com proteção subindo) e que a ORCL está com um sinal de fraqueza bem estranho no mercado de derivativos.
