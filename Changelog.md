@@ -112,3 +112,13 @@ Utilizei a função 'get_close_series' implementada pelo Guilherme e gerei gráf
 Comparei a queda da Cisco em 2000 com a volatilidade atual.
 Pela análise, descobri que a Nvidia demonstrou uma rápida recuperação, ao passo que a Palantir apresentou drawdowns profundos e demorados, o que confirma sua maior fragilidade.
 
+#DATA:2026-01-08
+
+##ADIÇÕES
+[Bloco 18 — Validação Estatística]
+
+* **[Jonathan]**: Implementei o teste de permutação com 10.000 simulações.
+Utilizei a função 'get_close_series' implementada pelo Guilherme para baixar os dados, usando Nvidia, Bitcoin e Ibovespa como ativos.
+Hipótese nula: Não há relação entre os ativos.
+O resultado foi um P_value de 0.0, portanto rejeitamos a hipótese nula. Com isso, é estatisticamente comprovado que existe uma relação entre Nvidia x Bitcoin e Nvidia x Ibovespa.
+
