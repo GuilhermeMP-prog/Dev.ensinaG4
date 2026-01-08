@@ -101,3 +101,14 @@ Padronizei a forma de plotagem, normalização das séries e tratamento das data
 
 [Bloco 16 — O "Termômetro do Medo" (IV Ponderada)] 
 * **[Guilherme]**: Versão mais sofisticada do pipeline. Adicionei a Volatilidade Implícita (IV) ponderada pelo Open Interest. Agora a cor das bolhas mostra se a opção está ficando caro ou barato. Com isso, ficou nítido que PLTR e AVGO estão em zona de alerta (muito esticadas com proteção subindo) e que a ORCL está com um sinal de fraqueza bem estranho no mercado de derivativos.
+
+#DATA:2025-12-30
+
+##ADIÇÕES
+[Bloco 17 — Análise de Risco e Drawdown]
+
+* **[Jonathan]**: Implementei a função de cálculo de Drawdown para mensurar a queda do topo histórico.
+Utilizei a função 'get_close_series' implementada pelo Guilherme e gerei gráficos de área.
+Comparei a queda da Cisco em 2000 com a volatilidade atual.
+Pela análise, descobri que a Nvidia demonstrou uma rápida recuperação, ao passo que a Palantir apresentou drawdowns profundos e demorados, o que confirma sua maior fragilidade.
+
