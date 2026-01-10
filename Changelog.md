@@ -164,7 +164,7 @@ Implementei o teste de permutação que o Jonathan utilizou para acrescentar mai
 
 [Bloco 28 — Comparação de Estabilidade Sistêmica e Volatilidade]
 
-* **[Guilherme]**: Implementei uma análise comparativa de volatilidade anualizada móvel (janela de 21 dias) para contrastar o regime da bolha Dot-Com com a atual era da IA. O código processa 1000 dias de dados históricos para NASDAQ e Cisco (1998-2002) contra os últimos 1000 dias de $S\&P$ 500 e NVIDIA. Esta visualização permite identificar se o patamar de incerteza atual da NVIDIA supera os níveis críticos observados no pico de Março de 2000, servindo como um barômetro de "estresse estrutural".
+* **[Guilherme]**: Implementei uma análise comparativa de volatilidade anualizada móvel (janela de 21 dias) para contrastar o regime da bolha Dot-Com com a atual era da IA. O código processa 1000 dias de dados históricos para NASDAQ e Cisco (1998-2002) contra os últimos 1000 dias de SP & 500 e NVIDIA. Esta visualização permite identificar se o patamar de incerteza atual da NVIDIA supera os níveis críticos observados no pico de Março de 2000, servindo como um barômetro de "estresse estrutural".
 
 [Bloco 29 — Diagnóstico de Instabilidade e Volatilidade de PLTR]
 
