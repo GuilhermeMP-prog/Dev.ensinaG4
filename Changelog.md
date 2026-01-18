@@ -123,7 +123,11 @@ Hipótese nula: Não há relação entre os ativos.
 O resultado foi um P_value de 0.0, portanto rejeitamos a hipótese nula. Com isso, é estatisticamente comprovado que existe uma relação entre Nvidia x Bitcoin e Nvidia x Ibovespa.
 
 ##DATA:2026-01-10
+
+
 ##ADIÇÕES
+
+
 [Bloco 19 —Matriz de Significância Estatística]
 
 * **[Guilherme]**: Implementando o cálculo de matrizes duplas: correlação ($r$) e significância ($p$-valor). Através da função pearsonr, transformei a análise visual em evidência quantitativa, permitindo filtrar o ruído de mercado e identificar relações estatisticamente válidas para a Seção 2.5 do Whitepaper.
@@ -169,6 +173,21 @@ Implementei o teste de permutação que o Jonathan utilizou para acrescentar mai
 [Bloco 29 — Diagnóstico de Instabilidade e Volatilidade de PLTR]
 
 * **[Guilherme]**: Implementei o cálculo de volatilidade anualizada móvel para a Palantir (PLTR), assegurando a estabilidade do script contra estruturas MultiIndex do Yahoo Finance por meio da seleção explícita da primeira coluna. O código estabelece um diagnóstico de instabilidade ao confrontar a volatilidade média recente do ativo com os patamares críticos da Cisco em 2000 ($60\%$). Esta análise é vital,servindo para demonstrar se o prêmio de risco exigido para ativos de "narrativa pura" de IA já atinge níveis de estresse equivalentes ao estouro da bolha Dot-com.
+
+##DATA:2026-01-18
+
+
+##ADIÇÕES
+
+[Bloco 30 — Teoria da Causalidade de Granger]
+
+* **[Guilherme]**: Incorporei a fundamentação teórica do Teste de Causalidade de Granger para elevar a análise de "correlação" para "precedência preditiva". Este método permite isolar a direcionalidade do risco, provando se os ativos de IA (NVIDIA) atuam como variáveis independentes que ditam o ritmo dos setores dependentes (drivers). Transformando a hipótese de influência em uma demonstração de liderança estatística temporal.
+
+
+
+[Bloco 31 — Mapeamento de Hierarquia: Drivers vs. Followers]
+
+* **[Guilherme]**: Finalizei os testes de causalidade comparando a Palantir (PLTR) com a NVIDIA e setores macro. Os resultados revelam que, ao contrário da NVIDIA, a PLTR não exerce liderança sobre a economia real, atuando como um "Follower de Sentimento" que reage passivamente a choques no setor de Energia. Esta distinção permite classificar os riscos do setor de IA em duas categorias na Seção 4: Riscos de Infraestrutura (Sistêmicos/Causais) e Riscos de Aplicação (Reflexivos/Voláteis), refinando o modelo de contágio do Whitepaper.
 
 
 
