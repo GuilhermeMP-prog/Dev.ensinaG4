@@ -189,5 +189,11 @@ Implementei o teste de permutação que o Jonathan utilizou para acrescentar mai
 
 * **[Guilherme]**: Finalizei os testes de causalidade comparando a Palantir (PLTR) com a NVIDIA e setores macro. Os resultados revelam que, ao contrário da NVIDIA, a PLTR não exerce liderança sobre a economia real, atuando como um "Follower de Sentimento" que reage passivamente a choques no setor de Energia. Esta distinção permite classificar os riscos do setor de IA em duas categorias na Seção 4: Riscos de Infraestrutura (Sistêmicos/Causais) e Riscos de Aplicação (Reflexivos/Voláteis), refinando o modelo de contágio do Whitepaper.
 
+##DATA:2026-01-31
+
+
+##MUDANÇAS
+* **[Guilherme]**: Tornei os testes de granger mais precisos e com mais camadas de robustez estatística, vulgo ADF Test e VAR-LR. Além de ter alterado algumas representações de correlações móveis. Retirei o mapeamento de hierarquia por julgar que não fosse ser tão interessante para a proposta da pesquisa, o que desviaria o foco.
+
 
 
